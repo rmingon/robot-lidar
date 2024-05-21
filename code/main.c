@@ -37,7 +37,7 @@ int main(void) {
 	lidarInit();
 	lidarStart();
 
-	linkitInit();
+	// linkitInit();
 
 	while(1) {
 
