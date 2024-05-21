@@ -3,6 +3,7 @@
 #include "stm32f4xx_gpio.h"
 #include "motor/motor.h"
 #include "lidar/lidar.h"
+#include "linkit/linkit.h"
 #include <stdio.h>
 
 volatile uint32_t msTicks;
@@ -37,7 +38,7 @@ int main(void) {
 	lidarInit();
 	lidarStart();
 
-	// linkitInit();
+	linkitInit();
 
 	while(1) {
 

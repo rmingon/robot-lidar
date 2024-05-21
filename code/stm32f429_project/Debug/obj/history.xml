@@ -19,11 +19,11 @@
       <target file="stm32f4xx_tim.o" lastModified="18f9cf883a8">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="18f9ca44b9a"/>
       </target>
-      <target file="stm32f4xx_exti.o" lastModified="18f9cf87f8d">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="18f9ca44b68"/>
-      </target>
       <target file="stm32f4xx_iwdg.o" lastModified="18f9cf8698d">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_iwdg.c" lastModified="18f9ca44b84"/>
+      </target>
+      <target file="stm32f4xx_exti.o" lastModified="18f9cf87f8d">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="18f9ca44b68"/>
       </target>
       <target file="stm32f4xx_gpio.o" lastModified="18f9cf87453">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="18f9ca44b74"/>
@@ -70,11 +70,11 @@
       <target file="startup_stm32f4xx.o" lastModified="18f9cf8680a">
          <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="18f9ca44abf"/>
       </target>
-      <target file="stm32f4xx_dma.o" lastModified="18f9cf87a4e">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="18f9ca44b64"/>
-      </target>
       <target file="stm32f4xx_dcmi.o" lastModified="18f9cf86e33">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_dcmi.c" lastModified="18f9ca44b5e"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="18f9cf87a4e">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="18f9ca44b64"/>
       </target>
       <target file="linkit.o" lastModified="18f9cf86c17">
          <source file="..\..\..\linkit\linkit.c" lastModified="18f9cf84136"/>
@@ -106,17 +106,17 @@
       <target file="stm32f4xx_spi.o" lastModified="18f9cf87c80">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="18f9ca44b95"/>
       </target>
+      <target file="main.o" lastModified="18f9cfafd37">
+         <source file="..\..\..\main.c" lastModified="18f9cfadfaa"/>
+      </target>
       <target file="stm32f4xx_fmc.o" lastModified="18f9cf87b6f">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_fmc.c" lastModified="18f9ca44b72"/>
       </target>
-      <target file="main.o" lastModified="18f9cf86a74">
-         <source file="..\..\..\main.c" lastModified="18f9cf1fae0"/>
+      <target file="stm32f4xx_dma2d.o" lastModified="18f9cf85cde">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma2d.c" lastModified="18f9ca44b68"/>
       </target>
       <target file="system_stm32f4xx.o" lastModified="18f9cf87905">
          <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="18f9ca44ad8"/>
-      </target>
-      <target file="stm32f4xx_dma2d.o" lastModified="18f9cf85cde">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma2d.c" lastModified="18f9ca44b68"/>
       </target>
       <target file="motor.o" lastModified="18f9cf87013">
          <source file="..\..\..\motor\motor.c" lastModified="18f9ca44ba5"/>
