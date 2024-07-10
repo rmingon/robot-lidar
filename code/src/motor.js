@@ -46,12 +46,11 @@ const PCA9685_PRESCALE_MAX = 255 /**< maximum prescale value */
 export class Motor {
     i2c = null
 
-    constructor() {
-        this.__i2cInit()
-    }
+    constructor() {}
 
-    async __i2cInit() {
+    async i2cInit() {
         this.i2c = await i2c.openPromisified(1)
+        return this.i2c
     }
 
     async readWord(addr) {
