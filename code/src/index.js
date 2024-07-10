@@ -1,4 +1,4 @@
-import { Motor } from './motor';
+import { Motor } from './motor.js';
 
 (async () => {
     const motor = new Motor()
