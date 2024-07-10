@@ -10,8 +10,5 @@
   "license": "ISC",
   "dependencies": {
     "onoff": "^6.0.3"
-  },
-  "devDependencies": {
-    "typescript": "^5.4.5"
   }
 }

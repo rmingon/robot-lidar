@@ -1,3 +1,0 @@
-C:/Users/bigfo/Documents/robot-lidar/motor_control/cmake-build-debug/CMakeFiles/motor_control.elf.dir
-C:/Users/bigfo/Documents/robot-lidar/motor_control/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/bigfo/Documents/robot-lidar/motor_control/cmake-build-debug/CMakeFiles/rebuild_cache.dir
