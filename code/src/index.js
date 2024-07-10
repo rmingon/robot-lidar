@@ -1,7 +1,7 @@
 const i2c = require('i2c-bus');
 
 const MCP9685_ADDR = 0x40;
-const STATE_REG = 0x05;
+const STATE_REG = 0x00;
 
 (async () => {
     const i2cState = await i2c.openPromisified(1)
