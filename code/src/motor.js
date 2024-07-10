@@ -64,7 +64,7 @@ export class Motor {
         buffer[2] = on >> 8;
         buffer[3] = off;
         buffer[4] = off >> 8;
-        this.i2c.i2cWrite(MCP9685_ADDR, 5, buffer)
+        this.i2c.i2cWrite(MCP9685_ADDR, buffer.length, buffer)
         console.log(buffer)
     }
 
