@@ -58,7 +58,7 @@ export class Motor {
     }
 
     async setPwm(num, on, off) {
-        const buffer = [];
+        const buffer = Buffer.alloc(5);
         buffer[0] = PCA9685_LED0_ON_L + 4 * num;
         buffer[1] = on;
         buffer[2] = on >> 8;
