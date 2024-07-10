@@ -1,3 +1,6 @@
+import i2c from 'i2c-bus'
+
+
 
 const MCP9685_ADDR = 0x70;
 

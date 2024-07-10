@@ -1,5 +1,4 @@
-const i2c = require('i2c-bus');
-const { Motor } = require('./motor');
+import { Motor } from './motor';
 
 (async () => {
     const motor = new Motor()
