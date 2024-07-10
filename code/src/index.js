@@ -2,8 +2,8 @@ import { Motor } from './motor.js';
 
 
 const sleep = (microsecond) => {
-    return new Promise((resolve), () => {
-        setTimeout(resolve)
+    return new Promise((resolve) => {
+        setTimeout(resolve, microsecond)
     })
 }
 (async () => {
